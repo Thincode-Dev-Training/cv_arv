@@ -1,10 +1,95 @@
-.vertical-nav {
-  min-width: 17rem;
-  width: 17rem;
-  height: 100vh;
-  position: fixed;
-  top: 50%;
+body {
+  background-color: rgb(39, 0, 75);
+}
+
+body::after {
+  content: "";
+  background-image: url("images/neon-circuit-board-background_23-2148338916.jpg");
+  opacity: 1;
+  background-size: 87em;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  bottom: 0;
   right: 0;
-  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-  transition: all 0.4s;
+  position: absolute;
+  z-index: -1;
+}
+
+.vertical-nav {
+  display: table-cell;
+  text-align: center;
+  width: 100%;
+  background-color: rgba(128, 16, 255, 0.3);
+  margin-left: 100px;
+  padding-top: 103px;
+  padding-right: 105px;
+  padding-left: 10px;
+  padding-bottom: 140px;
+}
+
+.home {
+  background: transparent !important;
+  width: 79%;
+  float: left;
+}
+
+li {
+  list-style-type: none;
+  font-size: x-large;
+  display: table;
+}
+
+a {
+  color: white;
+  text-shadow: 0 0 5px rgb(0, 68, 255);
+}
+
+a:hover {
+  font-style: normal;
+  text-decoration: none;
+  color: rgb(251, 140, 255);
+  text-shadow: 0 0 30px #ff00dd;
+  transition: all .5s ease;
+}
+
+p {
+  font-size: 2em;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  border-color: gray;
+}
+
+td {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.float-animation {
+  animation: float 5s ease-in-out infinite;
+}
+
+.lightsaber-blue{
+  color: white;
+  text-shadow: 0 0 40px rgb(0, 68, 255);
+}
+
+.lightsaber-pink{
+  color: white;
+  text-shadow: 0 0 5px #ff00dd;
 }

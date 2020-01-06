@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>ProgressBarWars.js</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/prism.css">
+    
+    <script src="js/jquery.min.js"></script> 
+      <script src="js/prism.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="ProgressBarWars.js"></script>
+      <link href="ProgressBarWars.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center">
+            <div  class="well" >
+                <a href="http://develoteca.com">
+                    <img src="http://develoteca.com/wp-content/themes/site/img/develoteca.png"/>
+               <br/>by develoteca.com
+                </a>
+                
+            </div>
+          <a href="https://github.com/oscaruhp/progressBarWars/archive/gh-pages.zip" class="btn3d btn btn-success btn-lg">Download v1.0</a>
+              
+              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- lateral -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-4331617637495482"
+     data-ad-slot="7438564459"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script><br/><br/>
+              <div class="col-md-12 well">
+                  <h3>Thank you for comments</h3>
+           <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_MX/sdk.js#xfbml=1&version=v2.5&appId=132799306837455";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+             <div class="fb-comments" data-href="http://oscaruhp.github.io/progressBarWars/" data-width="300" data-numposts="5"></div>
+                 </div>  
+          </div>
+            
+    <div class="col-md-8 ">
+        <br/>
+        <h1 class="text-center">ProgressBarWars (Star Wars Tribute)</h1>
+        
+        <div class="panel panel-default text-center">
+            <div class="panel-heading"><h3>ProgressBar (Demo 1)</h3></div>
+            <div class="panel-body ">
+         <div id="vader"></div>
+      <div id="yoda"></div>
+      <div id="obi"></div>
+      <div id="windu"></div>
+                 <script>
+        var vd=$("#vader").ProgressBarWars({porcentaje:20,estilo:"vader"});
+        var yd=$("#yoda").ProgressBarWars({porcentaje:30,estilo:"yoda"});
+        var ob=$("#obi").ProgressBarWars({porcentaje:50,estilo:"obi"});
+        var wd=$("#windu").ProgressBarWars({porcentaje:80,estilo:"windu"});
+      </script>
+                <input type="button" value="Vader 100%" class="btn btn-danger" onclick="vd.mover(100);">
+      <input type="button" class="btn btn-success" value="Yoda 100%" onclick="yd.mover(100);">
+      <input type="button" value="Obi 100%" class="btn btn-primary" onclick="ob.mover(100);">
+      <input type="button" value="windu 100%"class="btn btn-default" onclick="wd.mover(100);">
+      <br/><br/>
+                
+       <img style="cursor:pointer;" onclick="wd.mover(0);yd.mover(0);ob.mover(0);vd.mover(0);" src="img/Lasers.png"/>
+                
+            </div>
+        </div>
+        <div class="panel panel-default text-center">
+            <div class="panel-heading"><h3>ProgressBar (Demo 2 - Time change)</h3></div>
+            <div class="panel-body ">
+        <div id="vaderTime"></div>
+      <div id="yodaTime"></div>
+      <div id="obiTime"></div>
+      <div id="winduTime"></div>
+      <script>
+        $("#vaderTime").ProgressBarWars({porcentaje:80,estilo:"vader",tiempo:5980});
+        $("#yodaTime").ProgressBarWars({porcentaje:40,estilo:"yoda",tiempo:1000});
+        $("#obiTime").ProgressBarWars({porcentaje:90,estilo:"obi",tiempo:1800});
+        $("#winduTime").ProgressBarWars({porcentaje:5,estilo:"windu",tiempo:1900});
+                
+      </script>
+                
+      <img src="img/starwars-logo.png"/>
+        </div>
+        </div>
+        
+         <div class="panel panel-default text-center">
+            <div class="panel-heading"><h3>ProgressBar (Demo 3 - Size change)</h3></div>
+            <div class="panel-body ">
+                 <div id="vaderSize"></div>
+      <div id="yodaSize"></div>
+      <div id="obiSize"></div>
+      <div id="winduSize"></div>
+    <script>
+        $("#vaderSize").ProgressBarWars({porcentaje:80,estilo:"vader",tiempo:5980,alto:"30px"});
+        $("#yodaSize").ProgressBarWars({porcentaje:40,estilo:"yoda",tiempo:1000,alto:"15px"});
+        $("#obiSize").ProgressBarWars({porcentaje:90,estilo:"obi",tiempo:1800,alto:"3px"});
+        $("#winduSize").ProgressBarWars({porcentaje:5,estilo:"windu",tiempo:1900,alto:"5px"});
+      </script>
+       
+             </div></div>
+         <div class="panel panel-default text-center">
+            <div class="panel-heading"><h3>ProgressBar (Demo 4 - Color change)</h3></div>
+            <div class="panel-body ">
+                <div id="example1"></div>
+      <div id="example2"></div>
+      <div id="example3"></div>
+      <div id="example4"></div>
+      <div id="example5"></div>
+      <div id="example6"></div>
+      <div id="example7"></div>
+      <div id="example8"></div>
+      <div id="example9"></div>
+      
+  <script>
+        $("#example1").ProgressBarWars({porcentaje:10,color:"#FF5722"});
+        $("#example2").ProgressBarWars({porcentaje:20,color:"#FDD835"});
+        $("#example3").ProgressBarWars({porcentaje:30,color:"#8E24AA"});
+        $("#example4").ProgressBarWars({porcentaje:40,color:"#827717"});
+      $("#example5").ProgressBarWars({porcentaje:50,color:"#5E35B1"});
+      $("#example6").ProgressBarWars({porcentaje:60,color:"#00E5FF"});
+      $("#example7").ProgressBarWars({porcentaje:70,color:"#6D4C41"});
+      $("#example8").ProgressBarWars({porcentaje:80,color:"#3F51B5"});
+      $("#example9").ProgressBarWars({porcentaje:90,color:"#8BC34A"});
+      
+      </script>
+      <img src="img/darth.jpg"/>
+             </div></div>
+        <h2>ShakeBorder jQuery</h2>
+              <h3>Quick start</h3>
+            1.- Include the files
+            <pre><code class="language-markup">
+    &lt;!-- Bootstrap and JQuery -->
+    &lt;link rel="stylesheet" href="bootstrap.min.css">
+    &lt;script src="jquery.min.js"> &lt;/script>
+        
+    &lt;!-- Plugin -->
+    &lt;link rel="stylesheet" href="ProgressBarWars.css">
+    &lt;script src="ProgressBarWars.js">&lt;/script></code></pre>
+              
+            2.- Create HTML Element
+            <pre><code class="language-markup">
+   &lt;div id=&quot;example1&quot;&gt;&lt;/div&gt;<br />
+   &lt;div id=&quot;example2&quot;&gt;&lt;/div&gt;<br />
+   &lt;div id=&quot;example3&quot;&gt;&lt;/div&gt;<br />
+   &lt;div id=&quot;example4&quot;&gt;&lt;/div&gt;
+             </code></pre>
+            
+            
+            3.- Call the the plugin on a container as your wish
+            <pre><code class="language-javascript">
+$(&quot;#example1&quot;).ProgressBarWars({porcentaje:80,estilo:&quot;vader&quot;,tiempo:5980});<br />
+$(&quot;#example2&quot;).ProgressBarWars({porcentaje:40,estilo:&quot;yoda&quot;,tiempo:1000});<br />
+$(&quot;#example3&quot;).ProgressBarWars({porcentaje:90,estilo:&quot;obi&quot;,tiempo:1800});<br />
+$(&quot;#example4&quot;).ProgressBarWars({porcentaje:5,estilo:&quot;windu&quot;,tiempo:1900});
+               </code></pre>
+            
+            
+             4.- All done!
+            
+            <h2>Options</h2>
+            you can custom by passing options when call the plugin, all available options are listed below.
+call the the plugin on a container wish you wish
+            
+            
+             <pre><code class="language-javascript">
+        $('#example4').ProgressBarWars({
+                    option: value,
+                    option2: value2
+       });
+                 
+               </code></pre>
+            Demo (Options)
+           <pre><code class="language-javascript">
+        { 
+            porcentaje:"100", /* value of bar (0 to 100)% */
+            tiempo:1000, /* is velocity in milliseconds */
+            color:"#6D4C41", /* disabled (estilo - yoda, vader,etc..) */
+            estilo:"yoda", /* values (yoda, vader,obi,windu) */
+			tamanio:"30%",   /* with (0 to 100) */
+			alto:"10px"      /* height ( px or % ) */
+                    
+        }
+           </code></pre>
+         
+  </body>
+</html>

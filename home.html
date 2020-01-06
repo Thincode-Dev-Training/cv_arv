@@ -9,32 +9,52 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <title>Hola mundo con Vue.js</title>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe3a6fd632.js" crossorigin="anonymous"></script>
+    <title>Alfredo Rentería Villanueva</title>
   </head>
 
+  <body>
+    <!-- Main division -->
+    <div style="width: 100%; overflow: hidden; padding: 10px 10px">
 
-  <body style="background-color: #e7f8ea">
-    <div id="app" style="background:transparent !important" class="jumbotron text-center">
-      <h1 class="display-2">{{name}}</h1>
+      <!-- Title and content -->
+      <div id="app" class="jumbotron text-center float-animation home">
+        <h1 class="display-3 lightsaber-blue">{{name}}</h1>
 
+        <br>
+        <br>
+
+        <img src="images/me.jpeg" style="box-shadow: 0 0 40px rgb(0, 68, 255);" class="rounded-circle">
+
+        <br>
+        <br>
+
+        <div>
+          <h2 class="lightsaber-blue"><i class="fas fa-microchip"></i> Electronics and Telecommunications Engineer <i class="fas fa-microchip"></i></h2>
+          <h2 class="lightsaber-blue"><i class="fas fa-cubes"></i> Maker <i class="fas fa-cubes"></i></h2>
+          <h2 class="lightsaber-blue"><i class="fas fa-code"></i>  Web Developer <i class="fas fa-code"></i></h2>
+        </div>
+      </div>
+
+      <!-- Side navigation bar -->
       <div class="vertical-nav">
-        <ul>
-          <li><a href="home.html">Home</a></li>
-          <li><a href="about_me.html">About me</a></li>
-          <li><a href="experience.html">Experience</a></li>
-          <li><a href="education.html">Education</a></li>
-          <li><a href="competencies_and_qualities.html">Competencies and Qualities</a></li>
-          <li><a href="skills.html">Skills</a></li>
-          <li><a href="languages.html">Languages</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <li><a href="home.html" class="lightsaber-pink"><i class="fas fa-home"></i>   Home</a></li><br>
+        <li><a href="about_me.html"><i class="far fa-address-card"></i>   About me</a></li><br>
+        <li><a href="experience.html"><i class="far fa-building"></i>   Experience</a></li><br>
+        <li><a href="education.html"><i class="fas fa-graduation-cap"></i>   Education</a></li><br>
+        <li><a href="skills.html"><i class="fas fa-hiking"></i>   Skills</a></li><br>
+        <li><a href="languages.html"><i class="fas fa-language"></i>   Languages</a></li><br>
+        <li><a href="contact.html"><i class="fas fa-id-card"></i>   Contact</a></li>
       </div>
     </div>
 
+    <!-- Footer -->
+    <footer class="lightsaber-pink" style="text-align: center;">By: Alfredo Rentería Villanueva 2020©</footer>
+    <br>
 
     <!-- development version, includes helpful console warnings -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="01.js"></script>
-    <script src="stylesheet.css"></script>
   </body>
 </html>

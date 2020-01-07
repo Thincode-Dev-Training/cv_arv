@@ -7,7 +7,7 @@ body::after {
   background-image: url("images/neon-circuit-board-background_23-2148338916.jpg");
   opacity: 1;
   background-size: 87em;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   top: 0;
   left: 0;
   bottom: 0;
@@ -19,13 +19,15 @@ body::after {
 .vertical-nav {
   display: table-cell;
   text-align: center;
-  width: 100%;
+  width: 30%;
   background-color: rgba(128, 16, 255, 0.3);
+  /*
   margin-left: 100px;
-  padding-top: 103px;
-  padding-right: 105px;
-  padding-left: 10px;
-  padding-bottom: 140px;
+  padding-right: 100px;
+  */
+  padding-top: 45%;
+  padding-bottom: 50%;
+  padding-left: 22%;
 }
 
 .home {
@@ -92,4 +94,16 @@ td {
 .lightsaber-pink{
   color: white;
   text-shadow: 0 0 5px #ff00dd;
+}
+
+@media (max-width: @screen-xs) {
+  body {
+    font-size: larger;
+  }
+}
+
+@media (max-width: @screen-sm) {
+  body {
+    font-size: normal;
+  }
 }

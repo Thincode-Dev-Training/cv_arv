@@ -7,22 +7,22 @@ const app = new Vue({
 });
 
 $("#circuit_design").ProgressBarWars({
-  porcentaje:75,
+  porcentaje:80,
   tiempo: 450,
   color: "#00eaff"
 });
 $("#pcb_layout").ProgressBarWars({
-  porcentaje:80,
+  porcentaje:85,
   tiempo: 840,
   color: "#fb00ff",
 });
 $("#web_development").ProgressBarWars({
-  porcentaje:50,
+  porcentaje:60,
   tiempo: 450,
   color: "#09ff00",
 });
 $("#programming").ProgressBarWars({
-  porcentaje:85,
+  porcentaje:88,
   tiempo: 1150,
   color: "#ffffff",
 });
@@ -37,7 +37,7 @@ $("#team_work").ProgressBarWars({
   color: "#fb00ff",
 });
 $("#leadership").ProgressBarWars({
-  porcentaje:70,
+  porcentaje:80,
   tiempo: 1000,
   color: "#09ff00",
 });

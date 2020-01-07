@@ -10,6 +10,9 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/fe3a6fd632.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Alfredo's languages</title>
   </head>
 
@@ -23,22 +26,51 @@
         <h1 class="display-3 lightsaber-blue float-animation">Languages</h1>
 
         <br>
+        <br>
+        <br>
+        <br>
 
-        <!-- Content -->
-        <div class="lightsaber-blue">
-          <h2>English</h2>
-          <img src="https://www.countryflags.io/ca/flat/64.png">
-          <img src="https://www.countryflags.io/us/flat/64.png">
-          <img src="https://www.countryflags.io/gb/flat/64.png">
-          <img src="https://www.countryflags.io/au/flat/64.png">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner lightsaber-blue">
+              <div class="carousel-item active">
+                <img src="https://www.countryflags.io/ca/flat/64.png">
+                <img src="https://www.countryflags.io/us/flat/64.png">
+                <img src="https://www.countryflags.io/gb/flat/64.png">
+                <img src="https://www.countryflags.io/au/flat/64.png">
+                <img src="https://www.countryflags.io/ie/flat/64.png">
+                <img src="https://www.countryflags.io/nz/flat/64.png">
+                <p class="lightsaber-blue">Fluent English</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.countryflags.io/mx/flat/64.png">
+                <img src="https://www.countryflags.io/es/flat/64.png">
+                <img src="https://www.countryflags.io/co/flat/64.png">
+                <img src="https://www.countryflags.io/ar/flat/64.png">
+                <img src="https://www.countryflags.io/pe/flat/64.png">
+                <p class="lightsaber-blue">Native Spanish</p>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.countryflags.io/fr/flat/64.png">
+                <img src="https://www.countryflags.io/de/flat/64.png">
+                <img src="https://www.countryflags.io/it/flat/64.png">
+                <p class="lightsaber-blue">More coming soon!</p>
+              </div>
+          </div>
           <br>
-          <br>
-          <h2>Spanish</h2>
-          <img src="https://www.countryflags.io/mx/flat/64.png">
-          <img src="https://www.countryflags.io/es/flat/64.png">
-          <br>
-          <br>
-          <h2>More coming soon...</h2>
+          <!-- Carousel controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
 
       </div>
@@ -51,6 +83,7 @@
         <li><a href="education.html"><i class="fas fa-graduation-cap"></i>   Education</a></li><br>
         <li><a href="skills.html"><i class="fas fa-hiking"></i>   Skills</a></li><br>
         <li><a href="languages.html"><i class="fas fa-language"></i>   Languages</a></li><br>
+        <li><a href="blog.html"><i class="fas fa-laptop-code"></i>   Blog</a></li><br>
         <li><a href="contact.html"><i class="fas fa-id-card"></i>   Contact</a></li>
       </div>
     </div>

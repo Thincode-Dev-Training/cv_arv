@@ -8,8 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/fe3a6fd632.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>About Alfredo</title>
   </head>
 
@@ -26,11 +29,36 @@
         <br>
         <br>
 
-        <!-- Content -->
-        <div class="lightsaber-blue">
-          <p>I'm a friendly engineer who is curious and always on the move.</p>
-          <p>No matter if it's a hard challenge, I'll always find a solution.</p>
-          <p>I'm an electronics, programming and ice hockey lover.</p>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Carousel indicators -->
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <!-- Wrapper for carousel items -->
+          <div class="carousel-inner lightsaber-blue">
+              <div class="carousel-item active">
+                <i class="fas fa-user-astronaut" style="font-size: 12em;"></i>
+                <p class="lightsaber-blue">I'm a friendly engineer who is curious and always on the move.</p>
+              </div>
+              <div class="carousel-item">
+                <i class="fas fa-search" style="font-size: 12em;"></i>
+                <p class="lightsaber-blue">No matter if it's a hard challenge, I'll always find a solution.</p>
+              </div>
+              <div class="carousel-item">
+                <i class="fas fa-microchip" style="font-size: 12em;"></i>
+                <p class="lightsaber-blue">I'm an electronics, programming and ice hockey lover.</p>
+              </div>
+          </div>
+          <br>
+          <!-- Carousel controls -->
+          <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+          </a>
         </div>
       </div>
 
@@ -42,6 +70,7 @@
         <li><a href="education.html"><i class="fas fa-graduation-cap"></i>   Education</a></li><br>
         <li><a href="skills.html"><i class="fas fa-hiking"></i>   Skills</a></li><br>
         <li><a href="languages.html"><i class="fas fa-language"></i>   Languages</a></li><br>
+        <li><a href="blog.html"><i class="fas fa-laptop-code"></i>   Blog</a></li><br>
         <li><a href="contact.html"><i class="fas fa-id-card"></i>   Contact</a></li>
       </div>
     </div>
